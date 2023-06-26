@@ -1,0 +1,20 @@
+.weatherBlock {
+    width: 30%;
+    background-color: aquamarine;
+}
+
+.dateTimeBlock {
+    width: 30%;
+    background-color: pink;
+}
+
+.weeklyWeatherBlock {
+    width: 80%;
+    background-color: goldenrod;
+    margin: 0 auto;
+}
+
+.twoBlocks {
+    display: flex;
+    justify-content: space-around;
+}
