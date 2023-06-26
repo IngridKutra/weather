@@ -1,20 +1,33 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1472190649224-495422e1b602?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .weatherBlock {
     width: 30%;
-    background-color: aquamarine;
+    background-color: #ffffff99;
 }
 
 .dateTimeBlock {
     width: 30%;
-    background-color: pink;
+    background-color: #ffffff99;
 }
 
 .weeklyWeatherBlock {
-    width: 80%;
-    background-color: goldenrod;
+    width: 60%;
+    background-color: #ffffff99;
     margin: 0 auto;
+    margin-top: 4%;
 }
 
 .twoBlocks {
     display: flex;
     justify-content: space-around;
+    width: 80%;
+    text-align: center;
+    color: #000000bf;
+    margin: 0 auto;
+    padding-top: 3%;
 }
